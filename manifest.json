@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "smart text summarizer",
+    "version": "1.0.0",
+    "description": "This project aims to use OpenAI's text-based artificial intelligence ChatGPT to automatically summarize texts selected by users. Users input any text through the application, and ChatGPT analyzes the input to create a summary that highlights key points. This summarization process aims to save users time and effort by presenting complex texts in a more understandable and concise manner. The project emphasizes the power of artificial intelligence in text analysis and the value it provides to users.",
+    "permissions": [
+      "http://*/*",
+      "https://*/*",
+      "tabs"
+    ],
+    "icons": {
+      "16": "images/icon-16.png",
+      "48": "images/icon-48.png",
+      "128": "images/icon-128.png"
+    }
+  }
+  

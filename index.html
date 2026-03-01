@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akıllı Metin Özetleyici</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- Ana Sayfa İçeriği -->
+    <header>
+        <h1>Akıllı Metin Özetleyici</h1> <br>
+    </header>
+
+    <!-- Ana İçerik -->
+    <div class="container">
+        <form id="textInputForm">
+            <div class="form-group">
+                <label for="textInput">Lütfen Akıllı Özetlemek İstediğiniz Metini Giriniz ve Seçiniz.</label>
+                <textarea class="form-control" id="textInput" rows="5" placeholder="Metin giriniz..." required></textarea>
+            </div>
+            <button type="button" class="btn btn-primary" onclick="summarizeSelectedText()">Metni Özetle</button>
+        </form>
+        <div id="summaryResult"></div> <br> <br> <br> <!-- Özetin gösterileceği alan -->
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
